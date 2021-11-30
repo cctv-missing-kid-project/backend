@@ -15,9 +15,8 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from django.urls import include
+from kiosk import views
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('api/kiosk/', include('kiosk.urls')),
+    path("faceImg/", views.face_recognition, name="sending_face_img"),
 ]

@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class FindingObjectConfig(AppConfig):
+class KioskConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'finding_object'
+    name = 'kiosk'
