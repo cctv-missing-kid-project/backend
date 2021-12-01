@@ -14,7 +14,7 @@ def face_save(request):
     img = base64.b64decode(img_data)
     #############AI 얼굴인식 모듈 불러와서 전송 받은 얼굴 데이터에 적용시킨 결과값을 데이터베이스에 저장##########
     #############리턴 값은 그냥 success messege로 충분할 수가 있다.
-    # people =
+
     return Response({'result': 'success!'})
 
 
