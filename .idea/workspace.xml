@@ -3,7 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="9cbe2158-2c93-44c7-98ce-c13aed5619f5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/image.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/image.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kiosk/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/kiosk/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kiosk/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/kiosk/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kiosk/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/kiosk/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kiosk/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/kiosk/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kiosk/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/kiosk/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,7 +85,11 @@
       <workItem from="1638072648866" duration="2809000" />
       <workItem from="1638157079829" duration="22256000" />
       <workItem from="1638230640934" duration="10204000" />
-      <workItem from="1638317773613" duration="7673000" />
+      <workItem from="1638317773613" duration="8319000" />
+      <workItem from="1638404834359" duration="2340000" />
+      <workItem from="1638408376615" duration="19758000" />
+      <workItem from="1638491251606" duration="14647000" />
+      <workItem from="1638576511797" duration="1719000" />
     </task>
     <servers />
   </component>
