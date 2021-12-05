@@ -16,7 +16,21 @@ from kiosk.serializers import CustomerSerializer, CustomerGroupSerializer, Camer
 @api_view(['POST'])
 def face_save(request):
     url = 'https://f8rhqudog3.execute-api.us-west-2.amazonaws.com/v2/image'
-    print(request.data)
+
+    #모든 일행이 나온 사진을 제공받음
+    group_img = request.data['image']
+
+    now = time.localtime()
+    image_name = f'{now.tm_year}{now.tm_mon}{now.tm_mday}_{now.tm_hour}:{now.tm_min}_'
+    name_group_img = image_name + "group_img.jpeg"
+    files = {'image': (name_group_img, group_img, 'multipart/form-data')}
+    response = requests.post(url, files=files)
+    group_img_url = response.json()[0]['file_url']
+    group = CustomerGroup.objects.create(group_img_url=group_img_url)
+
+    #얼굴인식 + 객체 프로그램을 돌려 얼굴 사진, 객체, 가족사진을 매칭시킨다.
+    #group.id는 커스토머 추가할 때 필요한 데이터(하나의 그룹으로 묶기 위한)
+
     # face_image = request.data['face']
     # face_image = base64.b64decode(face_image)
     # object_image = request.data['object']
