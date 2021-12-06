@@ -37,6 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'rest_framework',
+    'kiosk'
 ]
 
 MIDDLEWARE = [
@@ -80,7 +82,19 @@ DATABASES = {
     }
 }
 
-
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.mysql',
+#         'NAME': 'mysql', # Database 이름
+#         'USER': 'root', # 데이터베이스에서 사용할 계정
+#         'PASSWORD': 'abc1234@', # 계정의 비밀번호
+#         'HOST': '44.237.113.249', # 데이테베이스 주소
+#         'PORT': '3306', # 데이터베이스 포트, mysql 디폴트값은 3306
+#         'OPTIONS': {
+#             'init_command': "SET sql_mode='STRICT_TRANS_TABLES'",
+#         }
+#     }
+# }
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
 
@@ -105,7 +119,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'ko-kr'
 
-TIME_ZONE = 'Seoul/Korea'
+TIME_ZONE = 'Asia/Seoul'
 
 USE_I18N = True
 

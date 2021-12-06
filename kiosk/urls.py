@@ -15,9 +15,11 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from django.urls import include
+from kiosk import views
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('api/kiosk/', include('kiosk.urls')),
+    path("faceSave", views.face_save, name="face_save"),
+    path("faceImg/", views.face_recognition, name="sending_face_img"),
+    path("getGroup/<int:pk>/", views.get_group, name="get_group"),
+    path("getMemberLocation/<int:pk>", views.get_member_location, name="get_member_location"),
 ]
