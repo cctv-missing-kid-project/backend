@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9cbe2158-2c93-44c7-98ce-c13aed5619f5" name="Changes" comment="">
+    <list default="true" id="b331885a-1e45-4f39-a587-9532d92ef551" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/BackEnd.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/BackEnd.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kiosk/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/kiosk/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testingpic.PNG" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,18 +16,10 @@
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Python Script" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="21R2QDAGwNtpgzghBY2SieZJx1W" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="21uRNsYmfrIAma2CNRFDQS3WddP" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -33,14 +27,10 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/kiosk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\sw_workspace\msa_cloud\Projects\CCTVProject\BackEnd\kiosk" />
-    </key>
   </component>
   <component name="RunManager">
     <configuration name="BackEnd" type="Python.DjangoServer" factoryName="Django server">
@@ -70,38 +60,16 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="9cbe2158-2c93-44c7-98ce-c13aed5619f5" name="Changes" comment="" />
-      <created>1637889560467</created>
+      <changelist id="b331885a-1e45-4f39-a587-9532d92ef551" name="Changes" comment="" />
+      <created>1638788951557</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1637889560467</updated>
-      <workItem from="1637889578562" duration="2491000" />
-      <workItem from="1637973675113" duration="7468000" />
-      <workItem from="1638072648866" duration="2809000" />
-      <workItem from="1638157079829" duration="22256000" />
-      <workItem from="1638230640934" duration="10204000" />
-      <workItem from="1638317773613" duration="8319000" />
-      <workItem from="1638404834359" duration="2340000" />
-      <workItem from="1638408376615" duration="19758000" />
-      <workItem from="1638491251606" duration="14647000" />
-      <workItem from="1638576511797" duration="2437000" />
-      <workItem from="1638702002506" duration="4203000" />
-      <workItem from="1638750193382" duration="10593000" />
+      <updated>1638788951557</updated>
+      <workItem from="1638788953298" duration="379000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/kiosk/urls.py</url>
-          <line>15</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
