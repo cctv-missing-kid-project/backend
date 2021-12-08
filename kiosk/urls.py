@@ -18,7 +18,7 @@ from django.urls import path
 from kiosk import views
 
 urlpatterns = [
-    path("faceSave", views.face_save, name="face_save"),
+    path("register/", views.register, name="register"),
     path("faceImg/", views.face_recognition, name="sending_face_img"),
     path("getGroup/<int:pk>/", views.get_group, name="get_group"),
     path("getMemberLocation/<int:pk>", views.get_member_location, name="get_member_location"),
