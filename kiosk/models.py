@@ -10,7 +10,6 @@ class CustomerGroup(models.Model):
 
 
 class Customer(models.Model):
-    face_img_url = models.CharField(max_length=200)
     object_img_url = models.CharField(max_length=200)
     group = models.ForeignKey(CustomerGroup, on_delete=models.CASCADE)
 
