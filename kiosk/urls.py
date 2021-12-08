@@ -22,4 +22,5 @@ urlpatterns = [
     path("faceImg/", views.face_recognition, name="sending_face_img"),
     path("getGroup/<int:pk>/", views.get_group, name="get_group"),
     path("getMemberLocation/<int:pk>", views.get_member_location, name="get_member_location"),
+    path("register", views.register, name="register"),
 ]

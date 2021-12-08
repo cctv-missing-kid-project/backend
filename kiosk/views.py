@@ -24,9 +24,10 @@ def upload_img(now, image, img_type):
 
 
 @api_view(['POST'])
-def face_save(request):
+def register(request):
     # 모든 일행이 나온 사진을 제공받음
-    group_img = request.data['image']
+    group_img_data = request.data['file'].replace('data:image/jpeg;base64', "")
+    group_img = base64.b64decode(group_img_data)
     now = time.localtime()
 
     upload_response = upload_img(now, group_img, 'group_img')
