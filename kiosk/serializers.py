@@ -12,13 +12,12 @@ class CustomerGroupSerializer(ModelSerializer):
 
 
 class CustomerSerializer(ModelSerializer):
-    face_img_url = serializers.CharField(max_length=200)
     object_img_url = serializers.CharField(max_length=200)
     group = CustomerGroupSerializer(many=False, read_only=True)
 
     class Meta:
         model = Customer
-        fields = ['id', 'face_img_url', 'object_img_url', 'group']
+        fields = ['id', 'object_img_url', 'group']
 
 
 class CameraSerializer(ModelSerializer):
